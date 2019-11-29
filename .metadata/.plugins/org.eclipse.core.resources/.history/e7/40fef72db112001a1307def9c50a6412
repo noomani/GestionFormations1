@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="	UTF-8">
+<link rel ="Stylesheet" href = "style.css"/>
+<title> BIENVENUE GTM INGENIEURIE </title>
+</head>
+<body>
+<img  src="gtm.jpg">
+<h1>    FORMATION CHOISIE         </h1>
+
+<input type="radio" name="gender" value="java"> Java<br>
+<input type="radio" name="gender" value="html"> HTML<br>
+<input type="radio" name="gender" value="php"> PHP<br>
+
+<h2> skills</h2>
+<input type="checkbox" name"code" value="code"> Code <br />
+<input type="checkbox" name"gestion" value="gestion"> Gestion <br />
+<input type="checkbox" name"communication" value="communictaion"> Communication <br />
+<br />
+<br />
+
+<label for="name">Name :</label>
+<input type="text" id="name" >
+<br />
+<br />
+<label for="name">prenom :</label>
+<input type="text" id="prenom" >
+<br />
+<br />
+<label for="name">password :</label>
+<input type="text" id="password" >
+<br />
+<br />
+<input class="favorite styled"
+       type="button"
+       value="Envoyer">
+
+</body>
+</html>
